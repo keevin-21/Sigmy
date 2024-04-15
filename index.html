@@ -4,12 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap"
+        rel="stylesheet">
+
     <title>Motivational ChatBot</title>
 </head>
 
 <body>
-    <h1>Motivational ChatBot</h1>
-    <p>Hi! I am a motivational chatbot. I am here to help you stay motivated and achieve your goals. How can I help you today?</p>
+    <header>
+        <div class="intro">
+            <h1>Motivational ChatBot</h1>
+            <p>Hi! I am a motivational chatbot. I am here to help you stay motivated and achieve your goals. How can I help
+                you today?</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="message-container"></div>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </section>
+    </main>
+    <footer>
+    </footer>
 </body>
 
 </html>
