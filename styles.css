@@ -23,18 +23,38 @@ body {
     border: 5px solid white;
     /* Contorno blanco */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .logo-container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+
     display: flex;
     align-items: center;
 }
-
+.logo-container p{
+    font-weight: bold;
+    padding-left: 5px;
+}
 .logo {
-    max-width: 300px;
+    max-width: 200px;
+}
+
+.Descripcion-container{
+    max-width: 30%;
+    margin-top: 150px ;
+    padding-left: 50px;
+}
+
+.Descripcion-container h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Descripcion-container p{
+    font-size: 25px;
+    padding-top: 10px;
 }
 
 .chatbot-name {
@@ -42,11 +62,63 @@ body {
 }
 
 .chatbot-name h2 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin: 0;
 }
 
 .chatbot-name p {
     font-size: 1rem;
     margin: 0;
+}
+
+.index-button-container {
+    margin-top: 200px;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.index-button-container button {
+    background-color: white; 
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.index-button-container button:hover {
+    background-color:#3965d3; 
+    color: white;
+}
+
+.index-button-container a {
+    text-decoration: none;
+    color: inherit; 
+    display: block;
+}
+
+.conversacion-container {
+    position: relative;
+}
+
+.conversacion-imagen {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 200px;
+
+}
+
+.conversacion-imagen img {
+    /* max-width: 750px; */
+    transition: transform 0.3s ease;
+
+}
+
+.conversacion-imagen img:hover {
+    transform: scale(1.1);
 }
