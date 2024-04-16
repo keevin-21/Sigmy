@@ -163,10 +163,10 @@ main {
         background: #000;
 
     }
-
+    
     .chat-container,
     header,
-    main {
+    main,.footer-container, .nombres {
         width: auto;
     }
 
