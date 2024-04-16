@@ -27,3 +27,8 @@ function displayMessage(sender, message) {
     messageContainer.appendChild(messageElement);
     messageContainer.scrollTop = messageContainer.scrollHeight;
 }
+
+function playTemachSound() {
+    let audio = new Audio('no_mi_compa.mp3');
+    audio.play();
+}
