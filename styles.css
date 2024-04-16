@@ -9,6 +9,17 @@ body {
     /* Fuente de Google Fonts */
 }
 
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -27,12 +38,14 @@ body {
     flex-direction: column;
     padding: 20px;
     margin: 0 auto; 
+    animation: fadeInScale 0.75s ease forwards; /* Aplica la animación */
+
 }
 
-.frame > * {
+/* .frame > * {
     margin: -5px; 
     padding: 5px; 
-}
+} */
 
 .logo-container {
 
@@ -119,7 +132,7 @@ body {
 }
 
 .conversacion-imagen img {
-    /* max-width: 750px; */
+    /* max-width: 750px; */    
     transition: transform 0.3s ease;
 
 }
