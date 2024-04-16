@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Jost", sans-serif;
     margin: 0;
     padding: 0;
@@ -19,21 +19,21 @@ body{
     }
 }
 
-header{
-    
+header {
+
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, #000000 100%);
     width: 100%;
     padding: 10px;
     padding-top: 30px;
     color: #ffffff;
 
-    display:flex;
+    display: flex;
     justify-content: center;
 
 }
 
 header h1 {
-    font-size: 50px;
+    font-size: 80px;
     margin: 10px auto;
     text-align: center;
     flex-grow: 1;
@@ -42,6 +42,7 @@ header h1 {
     animation: fadeInScale 0.75s ease forwards;
 
 }
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -52,17 +53,18 @@ header h1 {
 
 }
 
-.logo-container img{
+.logo-container img {
     max-width: 200px;
     height: 120px;
     width: auto;
-    transition: transform 0.3s ease; /* Agregamos una transición suave */
-
+    transition: transform 0.3s ease;
 }
 
 .logo-container img:hover {
-    transform: scale(1.1); /* Escalamos la imagen en un 10% cuando se hace hover */
+    transform: scale(1.1);
 }
+
+
 
 .intro {
     font-size: 30px;
@@ -85,7 +87,7 @@ main {
 }
 
 
-.chat-container{
+.chat-container {
     display: flex;
     width: 60%;
     height: auto;
@@ -110,14 +112,61 @@ main {
     border-radius: 10px;
 }
 
+.footer-container {
+    /* display: flex; */
+    /* justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease;   
+
+}
+
+
+
+.git-icon {
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+    margin-top: 0;
+    transition: transform 0.3s ease;
+}
+
+.nombres{
+    font-size: 15px;
+    margin: 10px auto;
+    width: 40%;
+    text-align: center;
+    animation: fadeInScale 0.75s ease forwards;
+    text-decoration: none;
+
+}
+
+.nombres:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nombres a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-copy-container {
+    text-align: center;
+    color: #ffffff50;
+}
 
 @media screen and (max-width: 480px) {
-   body{    
+    body {
         background: #000;
 
-   }
+    }
 
-    .chat-container,header,main{
+    .chat-container,
+    header,
+    main {
         width: auto;
     }
 
@@ -125,7 +174,7 @@ main {
         font-size: 30px;
     }
 
-    .intro{
+    .intro {
         font-size: 20px;
         width: 80%;
     }
@@ -133,5 +182,5 @@ main {
     .logo-container {
         position: relative;
     }
-    
+
 }
