@@ -184,18 +184,16 @@ body {
     .index-button-container button {
         font-size: 1.5rem;
         padding: 10px 15px;
+        z-index: 999;
+
     }
 
-    .conversacion-imagen {
-        position: static;
-        padding-right: 0;
-        padding-top: 50px;
+    .conversacion-imagen img{
+        position: relative;
+        padding-left: 180px;
+        left: 0;
+        max-width: 60%;
         width: auto;
     }
 
-    .conversacion-imagen img {
-        width: 10em;
-        display: block;
-        margin: 0 auto;
-    }
 }
