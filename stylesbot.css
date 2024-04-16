@@ -68,7 +68,12 @@ main {
     background-color: #446085;
 }
 
-
+#sigmyIframe {
+    min-width: 400px;
+    width: 100%;
+    min-height: 500px;
+    background-color: #000000;
+}
 
 footer{
     background-color: #2d3136;
