@@ -111,3 +111,27 @@ main {
 }
 
 
+@media screen and (max-width: 480px) {
+   body{    
+        background: #000;
+
+   }
+
+    .chat-container,header,main{
+        width: auto;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .intro{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .logo-container {
+        position: relative;
+    }
+    
+}
